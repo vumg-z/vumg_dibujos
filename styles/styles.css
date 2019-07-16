@@ -19,6 +19,13 @@ a {
     color: black;
     text-decoration: none;
     font-family: 'Roboto Mono', monospace;
+
+}
+
+a:hover {
+
+    background-color: black;
+    color: white;
 }
 
 p {
