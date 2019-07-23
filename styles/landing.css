@@ -1,0 +1,37 @@
+* {
+    
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.Mensaje-container {
+    
+    padding: 100;
+    border: 25px;
+    margin:0;
+
+    animation-name: example;
+    animation-duration: 2s;
+
+}
+
+.boton-container {
+    
+    padding: 100;
+    border: 25px;
+    margin:0;
+
+    animation-name: example;
+    
+    animation-duration: 2s;
+
+}
+
+
+@keyframes example {
+   from {color: #F6F6F6};
+
+    
+    to {color: #1E1E1E;}
+  }
