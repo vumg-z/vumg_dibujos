@@ -10,8 +10,9 @@
     padding: 100;
     border: 25px;
     margin:0;
+    text-align: center;
 
-    animation-name: example;
+    animation-name: show;
     animation-duration: 2s;
 
 }
@@ -22,16 +23,53 @@
     border: 25px;
     margin:0;
 
-    animation-name: example;
-    
-    animation-duration: 2s;
+    text-align: center;
 
 }
 
-
-@keyframes example {
-   from {color: #F6F6F6};
+button {
+    display: inline-block;
+    animation-name: show;
+    animation-duration: 2s;
 
     
-    to {color: #1E1E1E;}
+    width: 3em;
+    outline: none;
+
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
+
+.gif-container {
+
+    padding: 10;
+    border: 25px;
+    margin:0;
+    
+    animation-name: show;
+    animation-duration: 2s;
+
+    display: none;
+}
+
+img {
+    height: 178;
+    width: 240;
+
+
+}
+
+.gif {
+
+    text-align: center;
+    
+
+}
+
+@keyframes show {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
   }
+
+ 
