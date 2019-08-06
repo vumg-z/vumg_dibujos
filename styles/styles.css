@@ -5,6 +5,10 @@ header {
     font-size: 3em;
 }
 
+body {
+    animation-name: show;
+    animation-duration: 6s;
+}
 a {
     color: black;
     text-decoration: none;
