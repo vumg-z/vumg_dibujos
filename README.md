@@ -1,3 +1,3 @@
 # vumg_dibujos
 
-DEMO: https://vumg.github.io/vumg_dibujos/landing
+DEMO: https://urielmendozag.github.io/vumg_dibujos/
